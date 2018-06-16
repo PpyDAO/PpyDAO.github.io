@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 			<title>{{ page.title }}</title>
 			
 			<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
@@ -13,18 +17,12 @@
 			<div class="container">
 			
 				<div class="row">
-					<nav class="navbar navbar-default">
-						<div class="container-fluid">
-							<div class="collapse navbar-collapse">
-								<ul class="nav navbar-nav">
-									<li><a href="/">Home</a></li>
-									<li><a href="/about">About</a></li>
-									<li><a href="/cv">CV</a></li>
-									<li><a href="/blog">Blog</a></li>
-								</ul>
-							</div>
-						</div>
-					</nav>
+					<ul class="nav nav-tabs nav-justified">
+						<li><a href="/">Home</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/cv">CV</a></li>
+						<li><a href="/blog">Blog</a></li>
+					</ul>
 				</div>
 				
 				<div class="row">
@@ -32,12 +30,12 @@
 				</div>
 				
 				<div class="row">
-					<footer>
-						<ul>
-							<li><a href="sky_ppy@163.com">email</a></li>
-							<li><a href="https://github.com/ppydao">github.com/ppydao</a></li>
-						</ul>
-					</footer>
+					<div class="col-sm-8">
+					<p><a href="sky_ppy@163.com">email</a></p>
+					</div>
+					<div class="col-sm-4">
+					<p class="pull-right"><small><a href="https://github.com/ppydao">github.com/ppydao</a></small></p>
+					</div>
 				</div>
 			
 			</div><!-- /.container -->
