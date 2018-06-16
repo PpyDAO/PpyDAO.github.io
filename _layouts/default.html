@@ -11,36 +11,37 @@
 			
 		</head>
 		<body>
-		
-			
 			
 			<div class="container">
 			
 				<div class="row">
-					<ul class="nav nav-tabs nav-justified">
-						<li><a href="/">Home</a></li>
-						<li><a href="/about">About</a></li>
-						<li><a href="/cv">CV</a></li>
-						<li><a href="/blog">Blog</a></li>
-					</ul>
+					<div class="col-sm-8 col-sm-offset-2">
+						<div class="row">
+							<ul class="nav nav-tabs nav-justified">
+								<li><a href="/">Home</a></li>
+								<li><a href="/about">About</a></li>
+								<li><a href="/cv">CV</a></li>
+								<li><a href="/blog">Blog</a></li>
+							</ul>
+						</div>
+						
+						<div class="row">
+							{{ content }}
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-8">
+							<p><a href="sky_ppy@163.com">email</a></p>
+							</div>
+							<div class="col-sm-4">
+							<p class="pull-right"><small><a href="https://github.com/ppydao">github.com/ppydao</a></small></p>
+							</div>
+						</div>
+					
+					</div><!-- /.container -->
 				</div>
-				
-				<div class="row">
-					{{ content }}
-				</div>
-				
-				<div class="row">
-					<div class="col-sm-8">
-					<p><a href="sky_ppy@163.com">email</a></p>
-					</div>
-					<div class="col-sm-4">
-					<p class="pull-right"><small><a href="https://github.com/ppydao">github.com/ppydao</a></small></p>
-					</div>
-				</div>
-			
-			</div><!-- /.container -->
-			
-			
+			</div>
+		
 			<script src="/js/jquery-1.11.3.min.js"></script>
 			<script src="/js/bootstrap.min.js"></script>
 		</body>
