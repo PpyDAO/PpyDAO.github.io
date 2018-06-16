@@ -48,8 +48,8 @@ date: 2018-06-16
 	e. 生成代理
 
 ### 9. 通知类型
-<table>
-	<tr>
+<table class="table table-striped table-hover">
+	<tr class="info">
 		<td>通知类型</td>
 		<td>spring</td>
 		<td>AspectJ</td>
